@@ -1,5 +1,8 @@
+# Selection sort works in O(n^2) time because each element of the array
+# has to be touched n times for a list of n length, so n * n or n^2
+
 import random
-RANGE = 2**4
+RANGE = 2**10
 
 def find_smallest(array):
     '''Finds the smallest element in an array and
